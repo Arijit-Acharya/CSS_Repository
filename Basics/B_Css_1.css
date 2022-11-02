@@ -1,0 +1,37 @@
+/* combination section */
+header,
+.container,
+footer {
+    margin: 15px;
+}
+
+/* header section */
+header {
+    height: 120px;
+    background-color: rgb(236, 124, 143);
+}
+
+/* container section */
+.container {
+    height: 450px;
+}
+
+section {
+    height: 450px;
+    width: calc(67% - 7.5px);
+    background-color: rgb(241, 1, 121);
+    float: left;
+}
+
+aside {
+    height: 450px;
+    width: calc(33% - 7.5px);
+    background-color: rgb(195, 39, 91);
+    float: right;
+}
+
+/* footer section */
+footer {
+    height: 120px;
+    background-color: rgb(146, 69, 93);
+}

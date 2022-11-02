@@ -1,0 +1,112 @@
+.above,
+.below {
+    background-color: #7fffd4;
+    height: 800px;
+    margin: 10px 0px;
+}
+
+#portfolio {
+    border: 2px solid red;
+    height: 850px;
+    margin: 10px 0px;
+    display: flex;
+}
+
+#portfolio  .box-container {
+    display: flex;
+    height: 810px;
+    margin: 10px;
+    width: 32%;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#portfolio  .box-container .box1,
+#portfolio  .box-container .box2 {
+    border: 2px solid red;
+    margin: 5px;
+}
+
+#portfolio  .box-container .box1 {
+    height: 520px;
+}
+
+#portfolio  .box-container .box2 {
+    height: 250px;
+}
+
+#portfolio  .box-container .box1 img,
+#portfolio  .box-container .box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#portfolio  .box-container .box1 .content {
+    background: rgba(12, 12, 80, 0.727);
+    position: absolute;
+    top: -125%;
+    height: 523px;
+    width: 100.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#portfolio .box-container .box1:hover .content {
+    position: relative;
+    top: -523px;
+}
+
+#portfolio  .box-container .box2 .content {
+    background: rgba(12, 12, 80, 0.727);
+    position: absolute;
+    top: -125%;
+    height: 252px;
+    width: 100.5%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#portfolio .box-container .box2:hover .content {
+    position: relative;
+    top: -255px;
+}
+
+#portfolio  .box-container .box1 .content h3,
+#portfolio  .box-container .box2 .content h3 {
+    font-size: 30px;
+    color: white;
+    margin-block: 0px;
+}
+#portfolio  .box-container .box1 .content p,
+#portfolio  .box-container .box2 .content p {
+    font-size: 20px;
+    color: grey;
+    margin-block: 0px;
+
+}
+
+#portfolio  .box-container .box1 .content .plus,
+#portfolio  .box-container .box2 .content .plus {
+    background-color: goldenrod;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    width: 60px;
+    height: 50px;
+    margin-block: 0px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
