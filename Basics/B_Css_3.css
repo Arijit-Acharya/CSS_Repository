@@ -6,7 +6,7 @@ html{
 /* main box / the outer cover box */
 .container{
     background-color: rgb(226, 10, 10);
-    height: 700px;
+    height: 730px;
    
 }
 /* upper part */
@@ -30,13 +30,15 @@ html{
 }
 /* bottom part */
 .bottom{
-    height: 315px;
+    height: 329px;
 }
 .box{
     height: 99.4%;
     width: 32.65%;
     float: left;
     background-color: rgb(85, 6, 6);
+    padding: 10px 5px 0px 5px;
+    box-sizing: border-box;
 }
 #middle{
     margin: 0px 15px;
